@@ -14,9 +14,13 @@
   <style>
   body {
         background: rgb(223, 222, 222);
-        padding-top:140px;
+        padding-top:110px;
       }
       
+      .smallHide{
+     display:inline-block;
+   }
+
       h1 {
         color: white;
       }
@@ -46,11 +50,19 @@
         padding-right:auto;
       }
       @media only screen and (max-width: 1000px) {
+        body {
+        padding-top:70px;
+      }
         .topband{
             width:98vw;
         padding-left:1vw;
         padding-right:auto;
         }
+    
+        .smallHide{
+     display:none;
+   }
+
         .description {
         display:block;
         width:80vw;
@@ -93,8 +105,8 @@
                  <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
     <div class="container">
-        <figure>
-            <img src="support/img/evenlaura2.png" id="logo" width="150px" alt="007"> 
+        <figure class="smallHide">
+            <img src="support/img/evenlaura2.png" id="logo" width="100px" alt="007"> 
             </figure>
       <a class="navbar-brand" href="#">关于我们</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
