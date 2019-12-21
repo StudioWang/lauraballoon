@@ -1,5 +1,5 @@
 body {
-    background: #eee;
+    background: rgb(255, 255, 255);
     min-height: 3000px;
     padding: 0;
     margin: 0;
@@ -24,7 +24,7 @@ body {
     text-decoration: none;
   }
   nav {
-    background: #fff;
+    background: rgb(255, 255, 255);
     height: 80px;
     line-height: 80px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
@@ -107,7 +107,7 @@ display:none;
 }
 /* Footer */
 footer{
-  background-image: linear-gradient(rgba(185, 184, 184, 0.65), rgb(255, 255, 255));
+  background-image: linear-gradient( rgb(255, 255, 255),rgba(255, 230, 238, 1));
   text-align: center;
   padding:15px;
 }
