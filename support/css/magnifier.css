@@ -21,25 +21,70 @@ img{
   line-height: 0;
   content: "";
 }
+/* responsive resize design */
 .magnifier{
-	width: 500px;
+	width: 200px;
 	position: relative;
-	margin-top: 100px;
-	margin-left: 100px;
+	margin-top: 20px;
+	margin-left: 20px;
 }
 .magnifier-container{
-	width: 500px;
-	height: 500px;
+	width: 200px;
+	height: 200px;
 	overflow: hidden;
 	position: relative;
 	border: 1px solid #ddd;
 }
 .move-view{
-	width: 100px;
-	height: 100px;
+	width: 30px;
+	height: 30px;
 	position: absolute;
 	background-image: url('../images/move-box.png');
 }
+@media only screen and (min-width: 760px) {
+	.magnifier{
+		width: 300px;
+		position: relative;
+		margin-top: 50px;
+		margin-left: 50px;
+	}
+	.magnifier-container{
+		width: 300px;
+		height: 300px;
+		overflow: hidden;
+		position: relative;
+		border: 1px solid #ddd;
+	}
+	.move-view{
+		width: 75px;
+		height: 75px;
+		position: absolute;
+		background-image: url('../images/move-box.png');
+	}
+}	
+
+@media only screen and (min-width: 1200px) {
+	.magnifier{
+		width: 500px;
+		position: relative;
+		margin-top: 100px;
+		margin-left: 100px;
+	}
+	.magnifier-container{
+		width: 500px;
+		height: 500px;
+		overflow: hidden;
+		position: relative;
+		border: 1px solid #ddd;
+	}
+	.move-view{
+		width: 100px;
+		height: 100px;
+		position: absolute;
+		background-image: url('../images/move-box.png');
+	}
+}	
+
 .images-cover{
 	height: 100%;
 	width: 100%;
