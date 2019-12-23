@@ -23,14 +23,14 @@ img{
 }
 /* responsive resize design */
 .magnifier{
-	width: 200px;
+	width: 160px;
 	position: relative;
 	margin-top: 20px;
 	margin-left: 20px;
 }
 .magnifier-container{
-	width: 200px;
-	height: 200px;
+	width: 160px;
+	height: 160px;
 	overflow: hidden;
 	position: relative;
 	border: 1px solid #ddd;
