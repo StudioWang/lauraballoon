@@ -90,20 +90,45 @@ body {
   }
 }
 /* Jonathan Code */
-.displaycenter{
-  width:58%;
-  display:inline-block;
-  }
-@media only screen and (max-width: 800px) {
 .smallhide{
-display:none;
-}
-.displaycenter{
-  padding-left:5%;
-  padding-right:auto;
-  width:90%;
-  display:block;
+
   }
+  .displaycenter{
+    padding-left:5%;
+    padding-right:auto;
+    width:78%;
+    display:block;
+    }  
+@media only screen and (min-width: 760px) {
+  .displaycenter{
+    padding-left:15%;
+    width:50%;
+    display:inline-block;
+    }
+    .smallhide{
+     
+      }
+  }
+
+@media only screen and (min-width: 1000px) {
+   .displaycenter{
+     padding-left:15%;
+     width:50%;
+     display:inline-block;
+    }
+    .smallhide{
+     
+      }
+  }
+@media only screen and (min-width: 1200px) {
+   .displaycenter{
+    padding-left:6%;
+     width:53%;
+     display:inline-block;
+        }
+    .smallhide{
+      
+        }
 }
 /* Footer */
 footer{

@@ -26,7 +26,7 @@ img{
 	width: 160px;
 	position: relative;
 	margin-top: 20px;
-	margin-left: 20px;
+	margin-left: 1vw;
 }
 .magnifier-container{
 	width: 160px;
@@ -46,7 +46,7 @@ img{
 		width: 300px;
 		position: relative;
 		margin-top: 50px;
-		margin-left: 50px;
+		margin-left: 1vw;
 	}
 	.magnifier-container{
 		width: 300px;
@@ -62,13 +62,18 @@ img{
 		background-image: url('../images/move-box.png');
 	}
 }	
+@media only screen and (min-width: 1000px) {
+	.magnifier{
+		margin-left: 2vw;
+	}
 
+}	
 @media only screen and (min-width: 1200px) {
 	.magnifier{
 		width: 500px;
 		position: relative;
 		margin-top: 100px;
-		margin-left: 100px;
+		margin-left: 4vw;
 	}
 	.magnifier-container{
 		width: 500px;
